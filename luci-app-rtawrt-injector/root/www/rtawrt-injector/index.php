@@ -215,13 +215,13 @@
             const enableHttpProxyField = document.getElementById('enableHttpProxyField');
             
             if (mode === 'SSH') {
-                payloadField.classList.add('hidden');
-                sniField.classList.add('hidden');
-                enableHttpProxyField.classList.add('hidden');
-            } else if (mode === 'SSH - SSL') {
                 payloadField.classList.remove('hidden');
-                sniField.classList.remove('hidden');
+                sniField.classList.add('hidden');
                 enableHttpProxyField.classList.remove('hidden');
+            } else if (mode === 'SSH - SSL') {
+                payloadField.classList.add('hidden');
+                sniField.classList.remove('hidden');
+                enableHttpProxyField.classList.add('hidden');
             } else if (mode === 'SSH - WS - CDN') {
                 payloadField.classList.remove('hidden');
                 sniField.classList.remove('hidden');
