@@ -3,4 +3,3 @@
 <script src="lib/vendor/axios/axios.min.js"></script>
 <script src="lib/vendor/sweetalert2/sweetalert2.all.min.js"></script>
 <script src="lib/vendor/lodash/lodash.min.js"></script>
-<script src="js/index.js"></script>
